@@ -59,7 +59,7 @@ def submit_doubt():
 def thank_you():
     return render_template('thank_you.html')
 
-if __name__ == '__main__':
-    app.run(debug=True, port=8000)
+# if __name__ == '__main__':
+#     app.run(debug=True, port=8000)
 
 
